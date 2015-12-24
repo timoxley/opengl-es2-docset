@@ -37,6 +37,9 @@ $(DB): $(DOCUMENTS)/index.html parse.js populate.js package.json
 	sqlite3 $(DB) "CREATE TABLE searchIndex(id INTEGER PRIMARY KEY, name TEXT, type TEXT, path TEXT); CREATE UNIQUE INDEX anchor ON searchIndex (name, type, path);"
 	node parse.js | node populate.js | sqlite3 $(DB)
 
+OpenGL_ES2.tgz: all
+	tar --exclude='.DS_Store' -cvzf ./OpenGL_ES2.tgz OpenGL_ES2.docset
+
 db: clean-db
 	$(MAKE) $(DB)
 
@@ -51,5 +54,9 @@ clean:
 clean-db:
 	rm -rf $(DB)
 
-.PHONY: all docs db rename clean clean-db
+release: OpenGL_ES2.tgz
+
+
+
+.PHONY: all docs db rename clean clean-db release
 
