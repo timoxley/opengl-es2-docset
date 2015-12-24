@@ -1,4 +1,4 @@
-# OpenGL ES 2.0 Dash DocSet
+# OpenGL ES 2.0 for Dash
 
 [Dash](https://kapeli.com/dash) docset for OpenGL ES 2.0.
 
