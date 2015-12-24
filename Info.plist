@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>opengles100</string>
+	<string>opengles2.0</string>
 	<key>CFBundleName</key>
-	<string>OpenGL ES 1.0.0</string>
+	<string>OpenGL ES 2.0</string>
 	<key>DocSetPlatformFamily</key>
 	<string>gl</string>
 	<key>isDashDocset</key>
