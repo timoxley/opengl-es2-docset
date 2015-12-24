@@ -4,7 +4,7 @@ const fs = require('fs')
 const path = require('path')
 const jsdom = require('jsdom')
 
-const DOCS_PATH = path.join(__dirname, 'opengles.docset/Contents/Resources/Documents')
+const DOCS_PATH = path.join(__dirname, 'OpenGL_ES2.docset/Contents/Resources/Documents')
 
 jsdom.env(
 	fs.readFileSync(path.join(DOCS_PATH, 'index.html'), 'utf8'),

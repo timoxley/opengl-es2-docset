@@ -1,5 +1,5 @@
 REMOTE := https://www.khronos.org/opengles/sdk/docs/man/xhtml
-DOCSET := opengles.docset
+DOCSET := OpenGL_ES2.docset
 CONTENTS := $(DOCSET)/Contents
 DOCUMENTS := $(CONTENTS)/Resources/Documents
 WGET := wget -N -nd -r --quiet --progress=dot --show-progress --span-hosts --convert-links --page-requisites --reject=*robots.txt --directory-prefix=$(DOCUMENTS)
@@ -46,7 +46,7 @@ rename:
 	rm $(DOCUMENTS)/*.bak
 
 clean:
-	rm -rf opengles.docset
+	rm -rf $(DOCSET)
 
 clean-db:
 	rm -rf $(DB)

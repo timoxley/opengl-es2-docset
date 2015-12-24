@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>opengles2.0</string>
+	<string>OpenGL_ES2</string>
 	<key>CFBundleName</key>
 	<string>OpenGL ES 2.0</string>
 	<key>DocSetPlatformFamily</key>
