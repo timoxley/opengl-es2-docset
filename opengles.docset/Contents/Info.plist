@@ -10,5 +10,9 @@
 	<string>gl</string>
 	<key>isDashDocset</key>
 	<true/>
+	<key>dashIndexFilePath</key>
+	<string>index.html</string>
+	<key>DashDocSetFallbackURL</key>
+	<string>https://www.khronos.org/opengles/sdk/docs/man/xhtml/</string>
 </dict>
 </plist>

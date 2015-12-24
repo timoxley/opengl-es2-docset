@@ -11,8 +11,8 @@ DEPS_DEST := $(addprefix $(DOCUMENTS)/,$(DEP_FILES))
 
 all: docs $(DB)
 
-docs: $(DOCUMENTS)/style.css $(CONTENTS)/Info.plist $(DEPS_DEST) | $(DOCUMENTS)
-	$(make) rename
+docs: $(DOCUMENTS)/style.css $(CONTENTS)/Info.plist $(DOCSET)/icon.png $(DEPS_DEST) | $(DOCUMENTS)
+	$(MAKE) rename
 
 $(DEPS_DEST):
 	$(WGET) $(REMOTE)/$(notdir $@)
@@ -27,6 +27,10 @@ $(DOCUMENTS)/style.css: style.css
 $(CONTENTS)/Info.plist: Info.plist
 	-mkdir -p $(dir $@)
 	cp -rfp Info.plist $@
+
+$(DOCSET)/icon.png: icon.png
+	-mkdir -p $(dir $@)
+	cp -rfp icon.png $@
 
 $(DB): $(DOCUMENTS)/index.html parse.js populate.js package.json
 	rm -rf $(DB)

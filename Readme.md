@@ -1,6 +1,6 @@
-# OpenGL ES 1.0.0 Dash DocSet
+# OpenGL ES 2.0 Dash DocSet
 
-Dash DocSet for OpenGL ES 1.0.0
+Dash DocSet for OpenGL ES 2.0
 
 ## Build Instructions
 
