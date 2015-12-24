@@ -1,0 +1,16 @@
+{
+  "name": "opengl-es100-dashdoc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "parse.js",
+  "scripts": {
+    "start": "make -j3"
+  },
+  "keywords": [],
+  "author": "Tim Oxley <secoif@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "jsdom": "^7.2.1",
+    "ldjson-stream": "^1.2.1"
+  }
+}

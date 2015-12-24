@@ -1,0 +1,179 @@
+html, body, table
+{
+    color: #000;
+    padding: 4px 4px;
+    margin: 0px 0px 0 0px;
+    text-align: left;
+    font-family: Arial, Lucida, sans-serif;
+    font-size: 10pt;
+}
+
+#container
+{
+    margin: 10px;
+    font-size: 14pt;
+    text-decoration:none;
+}
+
+div.refnamediv p
+{
+    font-size: 12pt;
+    margin: 20px;
+}
+
+div.funcsynopsis
+{
+    font-family: monospace;
+}
+
+div.informaltable table
+{
+    border-width: 1px;
+    border-style: dotted;
+    border-collapse: collapse;
+    background-color: #F0F0F0;
+}
+
+div.informaltable th
+{
+    border-width: 2px;
+    padding: 4px;
+}
+
+div.informaltable td
+{
+    border-width: 2px;
+    padding: 4px;
+}
+
+div.table table
+{
+    border-width: 1px;
+    border-style: dotted;
+    border-collapse: collapse;
+    background-color: #F0F0F0;
+}
+
+div.table th
+{
+    border-width: 2px;
+    padding: 4px;
+}
+
+div.table td
+{
+    border-width: 2px;
+    padding: 4px;
+}
+
+code
+{
+    font-weight: bold;
+}
+
+span.citerefentry
+{
+    font-family: monospace;
+    font-weight: bold;
+}
+
+table.sample
+{
+    width: 100%;
+    text-align: left;
+    border-width: 1px;
+    border-spacing: 5px;
+    border-style: dotted;
+    border-color: black;
+    border-collapse: separate;
+    background-color: #F0F0F0;
+    font-family: sans-serif;
+}
+
+table.sample th
+{
+    border-width: 1px;
+    padding: 1px;
+    border-style: none;
+    font-size: 16pt;
+}
+
+table.sample td
+{
+    border-width: 1px;
+    padding: 1px;
+    border-style: none;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lucida Grande', Geneva, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+}
+h1 {
+	margin: 0;
+	padding: 20px;
+}
+h2 {
+	color: #f24e32;
+	font-weight: normal;
+	font-size: 17px;
+}
+div.refsect1 {
+	border-top: 1px solid #eee;
+	background-image: -webkit-gradient(linear,center top,center bottom,from(#f9f9f9),color-stop(0.6,#ffffff),to(#ffffff));
+}
+code, tt, pre, div.funcsynopsis td, span.citerefentry {
+	font-family: Menlo, monospace;
+}
+div.funcsynopsis, div.funcsynopsis td {
+	font-size: 14px;
+}
+div.refentry > div, body > p, body > h2 {
+	padding: 0 20px;
+}
+div.refentry > div.refsynopsisdiv {
+	border-top: 1px solid #eee;
+	padding: 10px 20px;
+	background-image: -webkit-gradient(linear,center top,center bottom,from(#fff6e0),color-stop(0.6,#fff9ea),color-stop(0.9,#fff9ea),to(#fff6e0));
+	border-bottom: 1px solid #fff0d0;
+}
+div.refentry > div.refsynopsisdiv h2 { display: none; }
+div.refentry {
+	margin: 0;
+}
+div.refnamediv, div.refentry {
+	padding: 0;
+}
+div.refnamediv p, div.refnamediv h2 {
+	margin: 0;
+	padding: 10px 0;
+	color: #333;
+}
+div.refnamediv p {
+	padding-top: 0;
+	font-size: 13px;
+}
+div.refnamediv h2 {
+	padding-bottom: 2px;
+	color: black;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 19px;
+}
+div.refnamediv {
+	background-color: #fff;
+}
+a:visited, a:visited span.citerefentry {
+	color: #036;
+	text-decoration: none;
+}
+a, a span.citerefentry {
+	color: #36c;
+	text-decoration: none;
+}
+a#Copyright, a#Copyright + h2, a#Copyright + h2 + p {
+	display: none;
+}
+
